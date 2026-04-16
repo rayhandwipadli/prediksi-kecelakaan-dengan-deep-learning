@@ -1,0 +1,15 @@
+Data mentah
+↓
+Agregasi bulanan
+↓
+Scaling
+↓
+Bikin sequence 12 bulan
+↓
+Train LSTM
+↓
+Prediksi 2026
+↓
+Inverse scaling
+↓
+Tampilkan grafik & narasi
