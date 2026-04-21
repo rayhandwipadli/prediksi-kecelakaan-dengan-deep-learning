@@ -160,7 +160,7 @@ with col2:
 st.subheader("Tren Kecelakaan Bulanan")
 
 df_month = (
-    df_f.groupby(pd.Grouper(key="tanggal", freq="M"))["jumlah_kecelakaan"]
+    df_f.groupby(pd.Grouper(key="tanggal", freq="ME"))["jumlah_kecelakaan"]
     .sum()
     .reset_index()
 )
