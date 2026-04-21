@@ -223,7 +223,7 @@ future = scaler.inverse_transform(
 future_dates = pd.date_range(
     df_month["tanggal"].iloc[-1] + pd.offsets.MonthEnd(1),
     periods=12,
-    freq="M"
+    freq="ME"
 )
 
 # ===============================
