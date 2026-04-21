@@ -5,3 +5,4 @@ prophet
 scikit-learn
 seaborn
 plotly
+tensorflow
